@@ -49,6 +49,8 @@ Line 4
 Line 5
 Line 2
 Line 9
+
+![](https://github.com/est160/LAB-08/blob/master/img/lab%2081.png?raw=true)
 ```
 ###1.1.2. try…catch…finally
 ประโยค ```try…catch…finally``` ใช้สำหรับการดักจับและจัดการข้อผิดพลาดของโปรแกรม ทั้งขณะทำงาน (Run Time Process) หรือในขณะเริ่มต้นทำงาน (Init Process) โดยเราจะวางคำสั่งที่คาดการว่าจะเกิดข้อผิดพลาดขึ้นไว้ในบล็อกของ ```Try``` และวางส่วนจัดการข้อผิดพลาดไว้ในบล็อกของ ```catch``` และถ้ามีการดำเนินการใดๆ ที่ต้องทำทั้งในกรณีที่มีและไม่มีข้อผิดพลาด ก็จะใส่ไว้ในบล็อกของ ```Finally``` ในคำสั่งนี้สามารถเขียนบล็อกของ ```catch``` ได้หลายบล็อก คำสั่งนี้มีประโยชน์มากในการทำงานกับระบบอินเตอร์เน็ต โดยเฉพาะในกรณีที่การเชื่อมต่อไม่เสถียร เพราะจะช่วยป้องกันการค้างของโปรแกรมของเราขณะเรียกข้อมูลจาก network ได้
@@ -143,6 +145,9 @@ public class TryCatch
      }
  }
 ```
+
+![](https://github.com/est160/LAB-08/blob/master/img/lab%2082.png?raw=true)
+
 ###2.
 ``` csharp
 using System;
@@ -157,6 +162,9 @@ public class TryCatch
      }
  }
 ```
+
+![]()
+
 ###3.
 ``` csharp
 using System;
@@ -270,6 +278,8 @@ public class ExceptionLearning
         statement_3 ;  
     }    // end of block
 ```
+
+![](https://github.com/est160/LAB-08/blob/master/img/lab%2083.png?raw=true)
 
 **ตัวอย่าง** การใช้งานคำสั่ง ```if```
 ```csharp
